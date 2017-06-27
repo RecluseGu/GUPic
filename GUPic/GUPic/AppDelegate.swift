@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        self.window?.rootViewController = MainViewController()
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
@@ -39,6 +45,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func GULOG<T>(message: T, filename: String = #file, methodName: String = #function, lineNumber: Int = #line){
+//        print("\((filename as NSString).pathComponents.last!).\(methodName)[\(lineNumber)]:\(message)")
+        #if DEBUG
+            print("\(methodName)[\(lineNumber)]:\(message)")
+        #endif
     }
 
 
