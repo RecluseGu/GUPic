@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		785A76171F0B1AF700B46830 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76161F0B1AF700B46830 /* BaseViewController.swift */; };
+		7832BEEF1F0B8AE100AF3A8B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7832BEEE1F0B8AE100AF3A8B /* HomeViewController.swift */; };
 		785A761A1F0B280900B46830 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76191F0B280900B46830 /* BannerViewController.swift */; };
 		785A76221F0B326700B46830 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76201F0B326700B46830 /* ImageHelper.swift */; };
 		785A76231F0B326700B46830 /* ImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76211F0B326700B46830 /* ImageVIewExtension.swift */; };
 		7863970D1F00EF7600AB25A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863970C1F00EF7600AB25A7 /* MainViewController.swift */; };
-		7863970F1F00EF9000AB25A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863970E1F00EF9000AB25A7 /* HomeViewController.swift */; };
-		786397111F00EFAB00AB25A7 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786397101F00EFAB00AB25A7 /* DiscoverViewController.swift */; };
-		786397131F00EFBF00AB25A7 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786397121F00EFBF00AB25A7 /* MeViewController.swift */; };
-		786397161F00EFF900AB25A7 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786397151F00EFF900AB25A7 /* MessageViewController.swift */; };
 		786397181F0123CC00AB25A7 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786397171F0123CC00AB25A7 /* UIButton+Extension.swift */; };
 		7863971A1F01258800AB25A7 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786397191F01258800AB25A7 /* NullViewController.swift */; };
 		7863971E1F020BB400AB25A7 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863971D1F020BB400AB25A7 /* VisitorView.swift */; };
 		786397201F020BC600AB25A7 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7863971F1F020BC600AB25A7 /* VisitorView.xib */; };
+		78B9874D1F0B89FA00E13F1E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9874C1F0B89FA00E13F1E /* MessageViewController.swift */; };
+		78B9874F1F0B8A0200E13F1E /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9874E1F0B8A0200E13F1E /* MeViewController.swift */; };
+		78B987511F0B8A0A00E13F1E /* BaseTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B987501F0B8A0A00E13F1E /* BaseTViewController.swift */; };
+		78B987531F0B8A1500E13F1E /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B987521F0B8A1500E13F1E /* DiscoverViewController.swift */; };
 		78C1BBE71F00D5EC008807CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1BBE61F00D5EC008807CC /* AppDelegate.swift */; };
 		78C1BBEE1F00D5EC008807CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C1BBED1F00D5EC008807CC /* Assets.xcassets */; };
 		78C1BBFC1F00D5ED008807CC /* GUPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C1BBFB1F00D5ED008807CC /* GUPicTests.swift */; };
@@ -44,19 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		785A76161F0B1AF700B46830 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7832BEEE1F0B8AE100AF3A8B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		785A76191F0B280900B46830 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
 		785A76201F0B326700B46830 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		785A76211F0B326700B46830 /* ImageVIewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVIewExtension.swift; sourceTree = "<group>"; };
 		7863970C1F00EF7600AB25A7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		7863970E1F00EF9000AB25A7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		786397101F00EFAB00AB25A7 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		786397121F00EFBF00AB25A7 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
-		786397151F00EFF900AB25A7 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		786397171F0123CC00AB25A7 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		786397191F01258800AB25A7 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		7863971D1F020BB400AB25A7 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		7863971F1F020BC600AB25A7 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		78B9874C1F0B89FA00E13F1E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		78B9874E1F0B8A0200E13F1E /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		78B987501F0B8A0A00E13F1E /* BaseTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTViewController.swift; sourceTree = "<group>"; };
+		78B987521F0B8A1500E13F1E /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		78C1BBE31F00D5EC008807CC /* GUPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C1BBE61F00D5EC008807CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78C1BBED1F00D5EC008807CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		786397061F00EE6500AB25A7 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				786397101F00EFAB00AB25A7 /* DiscoverViewController.swift */,
+				78B987521F0B8A1500E13F1E /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				785A76181F0B24E700B46830 /* Banner */,
-				7863970E1F00EF9000AB25A7 /* HomeViewController.swift */,
+				7832BEEE1F0B8AE100AF3A8B /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 		786397081F00EE6500AB25A7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				785A76161F0B1AF700B46830 /* BaseViewController.swift */,
+				78B987501F0B8A0A00E13F1E /* BaseTViewController.swift */,
 				7863970C1F00EF7600AB25A7 /* MainViewController.swift */,
 				786397191F01258800AB25A7 /* NullViewController.swift */,
 				7863971D1F020BB400AB25A7 /* VisitorView.swift */,
@@ -157,7 +157,7 @@
 		786397091F00EE6500AB25A7 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				786397121F00EFBF00AB25A7 /* MeViewController.swift */,
+				78B9874E1F0B8A0200E13F1E /* MeViewController.swift */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 		7863970A1F00EE6500AB25A7 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				786397151F00EFF900AB25A7 /* MessageViewController.swift */,
+				78B9874C1F0B89FA00E13F1E /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -368,18 +368,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7863970F1F00EF9000AB25A7 /* HomeViewController.swift in Sources */,
-				785A76171F0B1AF700B46830 /* BaseViewController.swift in Sources */,
-				786397131F00EFBF00AB25A7 /* MeViewController.swift in Sources */,
 				78C1BBE71F00D5EC008807CC /* AppDelegate.swift in Sources */,
-				786397111F00EFAB00AB25A7 /* DiscoverViewController.swift in Sources */,
-				786397161F00EFF900AB25A7 /* MessageViewController.swift in Sources */,
+				78B9874D1F0B89FA00E13F1E /* MessageViewController.swift in Sources */,
 				785A761A1F0B280900B46830 /* BannerViewController.swift in Sources */,
 				7863971A1F01258800AB25A7 /* NullViewController.swift in Sources */,
 				7863971E1F020BB400AB25A7 /* VisitorView.swift in Sources */,
+				78B987511F0B8A0A00E13F1E /* BaseTViewController.swift in Sources */,
 				7863970D1F00EF7600AB25A7 /* MainViewController.swift in Sources */,
+				78B9874F1F0B8A0200E13F1E /* MeViewController.swift in Sources */,
+				78B987531F0B8A1500E13F1E /* DiscoverViewController.swift in Sources */,
 				786397181F0123CC00AB25A7 /* UIButton+Extension.swift in Sources */,
 				785A76231F0B326700B46830 /* ImageVIewExtension.swift in Sources */,
+				7832BEEF1F0B8AE100AF3A8B /* HomeViewController.swift in Sources */,
 				785A76221F0B326700B46830 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

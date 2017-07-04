@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseTableViewController: UITableViewController {
+class BaseViewController: UIViewController {
 
     var isLogin = true
     var visitorView: VisitorView?
