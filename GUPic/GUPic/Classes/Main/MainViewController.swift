@@ -15,7 +15,7 @@ class MainViewController: UITabBarController {
         
         tabBar.tintColor = UIColor.orange
         addChildViewControllers()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -25,15 +25,16 @@ class MainViewController: UITabBarController {
         tabBar.addSubview(composeButton)
         let rect = composeButton.frame
         let width = tabBar.bounds.width / CGFloat(childViewControllers.count)
-        composeButton.frame = CGRect(x: width * 2, y: 0, width: width, height: rect.height)
+//        print(tabBar.frame.height) --> 49
+        composeButton.frame = CGRect(x: width * 2, y: (tabBar.frame.height - rect.height) / 2, width: width, height: rect.height)
     }
     
     func addChildViewControllers() {
-        addChildViewController(childController: HomeTableViewController(), title: "首页", imageName: "tabbar_home")
-        addChildViewController(childController: DiscoverTableViewController(), title: "发现", imageName: "tabbar_discover")
+        addChildViewController(childController: HomeViewController(), title: "首页", imageName: "tabbar_home")
+        addChildViewController(childController: DiscoverViewController(), title: "发现", imageName: "tabbar_discover")
         addChildViewController(childController: NullViewController(), title: "", imageName: "")
-        addChildViewController(childController: MessageTableViewController(), title: "消息", imageName: "tabbar_message")
-        addChildViewController(childController: HomeTableViewController(), title: "我的", imageName: "tabbar_me")
+        addChildViewController(childController: MessageViewController(), title: "消息", imageName: "tabbar_message")
+        addChildViewController(childController: MeViewController(), title: "我的", imageName: "tabbar_me")
     }
     
     
@@ -60,6 +61,5 @@ class MainViewController: UITabBarController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }
