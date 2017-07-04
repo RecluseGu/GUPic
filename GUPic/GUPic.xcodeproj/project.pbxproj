@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		785A76171F0B1AF700B46830 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76161F0B1AF700B46830 /* BaseViewController.swift */; };
+		785A761A1F0B280900B46830 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76191F0B280900B46830 /* BannerViewController.swift */; };
+		785A76221F0B326700B46830 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76201F0B326700B46830 /* ImageHelper.swift */; };
+		785A76231F0B326700B46830 /* ImageVIewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A76211F0B326700B46830 /* ImageVIewExtension.swift */; };
 		7863970D1F00EF7600AB25A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863970C1F00EF7600AB25A7 /* MainViewController.swift */; };
 		7863970F1F00EF9000AB25A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863970E1F00EF9000AB25A7 /* HomeViewController.swift */; };
 		786397111F00EFAB00AB25A7 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786397101F00EFAB00AB25A7 /* DiscoverViewController.swift */; };
@@ -42,6 +45,9 @@
 
 /* Begin PBXFileReference section */
 		785A76161F0B1AF700B46830 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		785A76191F0B280900B46830 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		785A76201F0B326700B46830 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		785A76211F0B326700B46830 /* ImageVIewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageVIewExtension.swift; sourceTree = "<group>"; };
 		7863970C1F00EF7600AB25A7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7863970E1F00EF9000AB25A7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		786397101F00EFAB00AB25A7 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		785A76181F0B24E700B46830 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				785A76191F0B280900B46830 /* BannerViewController.swift */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		785A761B1F0B31EB00B46830 /* ImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				785A76201F0B326700B46830 /* ImageHelper.swift */,
+				785A76211F0B326700B46830 /* ImageVIewExtension.swift */,
+			);
+			path = ImageHelper;
+			sourceTree = "<group>";
+		};
 		786397051F00EE6500AB25A7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +136,7 @@
 		786397071F00EE6500AB25A7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				785A76181F0B24E700B46830 /* Banner */,
 				7863970E1F00EF9000AB25A7 /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -149,6 +173,7 @@
 		7863970B1F00EE6500AB25A7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				785A761B1F0B31EB00B46830 /* ImageHelper */,
 				786397171F0123CC00AB25A7 /* UIButton+Extension.swift */,
 			);
 			path = Tools;
@@ -349,10 +374,13 @@
 				78C1BBE71F00D5EC008807CC /* AppDelegate.swift in Sources */,
 				786397111F00EFAB00AB25A7 /* DiscoverViewController.swift in Sources */,
 				786397161F00EFF900AB25A7 /* MessageViewController.swift in Sources */,
+				785A761A1F0B280900B46830 /* BannerViewController.swift in Sources */,
 				7863971A1F01258800AB25A7 /* NullViewController.swift in Sources */,
 				7863971E1F020BB400AB25A7 /* VisitorView.swift in Sources */,
 				7863970D1F00EF7600AB25A7 /* MainViewController.swift in Sources */,
 				786397181F0123CC00AB25A7 /* UIButton+Extension.swift in Sources */,
+				785A76231F0B326700B46830 /* ImageVIewExtension.swift in Sources */,
+				785A76221F0B326700B46830 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

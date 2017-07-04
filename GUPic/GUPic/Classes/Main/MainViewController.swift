@@ -30,11 +30,20 @@ class MainViewController: UITabBarController {
     }
     
     func addChildViewControllers() {
-        addChildViewController(childController: HomeViewController(), title: "首页", imageName: "tabbar_home")
+        //addChildViewController(childController: HomeViewController(), title: "首页", imageName: "tabbar_home")
+        addHomeViewController(childController: HomeViewController(), title: "首页", imageName: "tabbar_home")
         addChildViewController(childController: DiscoverViewController(), title: "发现", imageName: "tabbar_discover")
         addChildViewController(childController: NullViewController(), title: "", imageName: "")
         addChildViewController(childController: MessageViewController(), title: "消息", imageName: "tabbar_message")
         addChildViewController(childController: MeViewController(), title: "我的", imageName: "tabbar_me")
+    }
+    
+    func addHomeViewController(childController: UIViewController, title: String, imageName: String) {
+        childController.tabBarItem.title = title
+        childController.tabBarItem.image = UIImage(named: imageName)
+        childController.tabBarItem.selectedImage = UIImage(named: imageName + "_highlighted")
+        addChildViewController(childController)
+        
     }
     
     
